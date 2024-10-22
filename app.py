@@ -8,7 +8,7 @@ data = pd.read_csv('dados_elemento.csv', sep=',')  # Altere 'seu_arquivo.csv' pa
 st.title('Visualização de Dados de Player')
 
 # Exibir os dados
-st.write("Dados Brutos:")
+st.write("Dados Player:")
 st.dataframe(data)
 
 # Gráfico simples
